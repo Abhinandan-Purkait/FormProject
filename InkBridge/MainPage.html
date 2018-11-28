@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/MainPage.css">
+    <link rel="stylesheet" type="text/css" href="BootstrapFiles/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="split left">
+        <img src="logo.png" class="logoPart" style=" width: 50%;height:auto;">
+        <center>
+            <div class="quotes">
+                <i>
+                    <h3 class="textUnit">"The best and most beautiful things in the world cannot be seen or even
+                        touched - they must be felt
+                        with the heart." - Helen Keller</h3>
+                    <h3 class="textUnit">"The best and most beautiful things in the world cannot be seen or even
+                        touched - they must be felt
+                        with the heart." - Helen Keller</h3>
+                    <h3 class="textUnit">"The best and most beautiful things in the world cannot be seen or even
+                        touched - they must be felt
+                        with the heart." - Helen Keller</h3>
+                    <h3 class="textUnit">"The best and most beautiful things in the world cannot be seen or even
+                        touched - they must be felt
+                        with the heart." - Helen Keller</h3>
+                </i>
+            </div>
+        </center>
+    </div>
+
+    <div class="split right">
+        <div class="loginBox centered FORMPART">
+            <form action="../index.html" method="post" onsubmit="return check();">
+                <h2>Create an Account</h2>
+                <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="user" placeholder="Username" id="username" required="">
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-pen"></i>
+                    <input type="text" name="pen" placeholder="Penname" id="penname" required="">
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required=""
+                        placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-unlock" aria-hidden="true"></i>
+                    <input type="password" name="pass" placeholder="Password" id="password" required="">
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-unlock" aria-hidden="true"></i>
+                    <input type="password" name="confpass" placeholder="Re-Enter Password" id="password1" required="">
+                </div>
+                <div class="input-box">
+                    <input type="submit" name="next" value="Next" id="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="BootStrapFiles/js/bootstrap.min.js"></script>
+</body>
+
+</html>
